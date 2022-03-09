@@ -3,7 +3,7 @@ const app=express();
 const cors = require('cors');
 const mongoose=require('mongoose');
 const users = require('./models/user')
-const uri = "mongodb+srv://shabbir:14174422@cluster0.zru3f.mongodb.net/loginData?retryWrites=true&w=majority";
+const uri = "";
 
 
 mongoose.connect(uri).then(()=>{
